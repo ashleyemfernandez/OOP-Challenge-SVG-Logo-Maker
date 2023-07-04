@@ -16,7 +16,7 @@ This SVG logo maker uses node.js to create a command line application that creat
   In order to install this project the user must access the GitHub repository and use the code from the command line.
   
   ## Usage
-  When accessing the code from the integrated terminal, the command-line prompts for information about the logo by asking the user for 3 characters, the color of the text, the shape of the logo, and the color of the shape. A svg file is generated with the information the user inputs and is able to be viewed the logo is able to be viewed from a broswer. 
+  When accessing the code from the integrated terminal, the command-line prompts for information about the logo by asking the user for 3 characters, the color of the text, the shape of the logo, and the color of the shape. A svg file is generated with the information the user inputs and the logo is able to be viewed from a broswer. 
   
   ## License
   This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
