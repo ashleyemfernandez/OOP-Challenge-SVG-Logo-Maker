@@ -1,4 +1,5 @@
 const inquirer = require('inquirer');
+const express = require('express');
 const fs = require('fs');
 const { createSVG } = require('./svgUtils'); 
 
@@ -39,6 +40,12 @@ async function run() {
   try {
     const userInput = await getUserInput();
     generateSVG(userInput);
+
+    const app = express();
+    app.use(express.static(__dirname));
+    app.listen(3000, () => {
+      console.log('Server is running on http://localhost:3000');
+    });
   } catch (error) {
     console.error('An error occurred:', error);
   }
